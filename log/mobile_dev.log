@@ -1,0 +1,420 @@
+Aug 28 17:09:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 17:09:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 17:09:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Aug 28 17:09:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 17:09:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 17:09:18 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Aug 28 17:09:18 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Aug 28 17:09:18 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Aug 28 17:09:18 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Aug 28 17:09:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 28 17:09:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 17:09:18 symfony [info] {sfWebDebugLogger} Configuration 143.51 ms (9)
+Aug 28 17:09:18 symfony [info] {sfWebDebugLogger} Factories 284.20 ms (1)
+Aug 28 17:09:18 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Aug 28 17:09:18 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 24.68 ms (1)
+Aug 28 17:09:18 symfony [info] {sfWebResponse} Send content (30977 o)
+Aug 28 17:09:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 17:09:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 17:09:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Aug 28 17:09:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 17:09:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 17:09:50 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Aug 28 17:09:50 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Aug 28 17:09:50 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Aug 28 17:09:50 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Aug 28 17:09:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 28 17:09:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 17:09:50 symfony [info] {sfWebDebugLogger} Configuration 1.32 ms (9)
+Aug 28 17:09:50 symfony [info] {sfWebDebugLogger} Factories 29.75 ms (1)
+Aug 28 17:09:50 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+Aug 28 17:09:50 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 7.65 ms (1)
+Aug 28 17:09:50 symfony [info] {sfWebResponse} Send content (31003 o)
+Aug 28 17:10:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 17:10:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 17:10:00 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 17:10:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 17:10:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 17:10:00 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 17:10:00 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/home/templates/indexSuccess.php"
+Aug 28 17:10:00 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Aug 28 17:10:00 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Aug 28 17:10:00 symfony [notice] {sfWebDebugLogger}  Notice at /Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php on line 14 (Use of undefined constant php - assumed 'php')
+Aug 28 17:10:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 28 17:10:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 17:10:00 symfony [info] {sfWebDebugLogger} Configuration 35.36 ms (10)
+Aug 28 17:10:00 symfony [info] {sfWebDebugLogger} Factories 32.50 ms (1)
+Aug 28 17:10:00 symfony [info] {sfWebDebugLogger} Action "home/index" 0.15 ms (1)
+Aug 28 17:10:00 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 11.11 ms (1)
+Aug 28 17:10:00 symfony [info] {sfWebResponse} Send content (31554 o)
+Aug 28 19:09:58 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 19:09:58 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 19:09:58 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 19:09:58 symfony [info] {myUser} Automatic user logout due to timeout
+Aug 28 19:09:58 symfony [info] {myUser} User is not authenticated
+Aug 28 19:09:58 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 19:09:58 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 19:09:58 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 19:09:58 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/home/templates/indexSuccess.php"
+Aug 28 19:09:58 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Aug 28 19:09:58 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Aug 28 19:09:58 symfony [notice] {sfWebDebugLogger}  Notice at /Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php on line 14 (Use of undefined constant php - assumed 'php')
+Aug 28 19:09:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 28 19:09:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 19:09:58 symfony [info] {sfWebDebugLogger} Configuration 2.09 ms (9)
+Aug 28 19:09:58 symfony [info] {sfWebDebugLogger} Factories 681.87 ms (1)
+Aug 28 19:09:58 symfony [info] {sfWebDebugLogger} Action "home/index" 0.17 ms (1)
+Aug 28 19:09:58 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 91.29 ms (1)
+Aug 28 19:09:58 symfony [info] {sfWebResponse} Send content (32224 o)
+Aug 28 20:05:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:05:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:05:53 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:05:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:05:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:05:53 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:05:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:05:53 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (is_completed = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:05:53 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_completed' in 'where clause'
+Aug 28 20:05:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 28 20:05:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 20:05:53 symfony [info] {sfWebDebugLogger} Configuration 205.53 ms (8)
+Aug 28 20:05:53 symfony [info] {sfWebDebugLogger} Factories 76.79 ms (1)
+Aug 28 20:05:53 symfony [info] {sfWebDebugLogger} Action "home/index" 312.62 ms (1)
+Aug 28 20:05:53 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Aug 28 20:07:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:07:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:07:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:07:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:07:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:07:01 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:07:01 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:07:01 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (is_completed = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:07:01 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_completed' in 'where clause'
+Aug 28 20:07:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 28 20:07:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 20:07:01 symfony [info] {sfWebDebugLogger} Configuration 1.16 ms (8)
+Aug 28 20:07:01 symfony [info] {sfWebDebugLogger} Factories 56.89 ms (1)
+Aug 28 20:07:01 symfony [info] {sfWebDebugLogger} Action "home/index" 112.93 ms (1)
+Aug 28 20:07:01 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (1)
+Aug 28 20:07:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:07:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:07:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:07:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:07:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:07:12 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:07:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:07:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:07:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:07:35 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:07:35 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:07:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:07:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:07:35 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:07:35 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:07:35 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:07:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:07:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:07:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:07:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:07:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:07:50 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:07:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:07:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:08:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:08:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:08:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:08:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:08:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:08:40 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:08:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:08:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:08:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:08:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:08:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:08:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:08:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:08:42 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:08:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:08:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:08:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:08:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:08:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:08:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:08:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:08:52 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:08:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:08:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:17:55 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:17:55 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:17:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:17:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:17:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:17:55 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:17:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:17:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:18:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:18:12 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:18:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Aug 28 20:18:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:18:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:18:12 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Aug 28 20:18:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Aug 28 20:18:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Aug 28 20:18:12 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/home/templates/indexSuccess.php"
+Aug 28 20:18:12 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Aug 28 20:18:12 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Aug 28 20:18:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 28 20:18:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 20:18:12 symfony [info] {sfWebDebugLogger} Configuration 8.87 ms (10)
+Aug 28 20:18:12 symfony [info] {sfWebDebugLogger} Factories 12.19 ms (1)
+Aug 28 20:18:12 symfony [info] {sfWebDebugLogger} Action "home/index" 8.73 ms (1)
+Aug 28 20:18:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Aug 28 20:18:12 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 15.01 ms (1)
+Aug 28 20:18:12 symfony [info] {sfWebResponse} Send content (35214 o)
+Aug 28 20:18:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:18:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:18:19 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Aug 28 20:18:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:18:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:18:19 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Aug 28 20:18:19 symfony [err] {sfRenderException} The template "completeSuccess.php" does not exist or is unreadable in "".
+Aug 28 20:18:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 28 20:18:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 20:18:19 symfony [info] {sfWebDebugLogger} Configuration 39.82 ms (10)
+Aug 28 20:18:19 symfony [info] {sfWebDebugLogger} Factories 5.94 ms (1)
+Aug 28 20:18:19 symfony [info] {sfWebDebugLogger} Action "trip/complete" 0.15 ms (1)
+Aug 28 20:18:19 symfony [info] {sfWebDebugLogger} View "Success" for "trip/complete" 79.49 ms (1)
+Aug 28 20:18:22 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:18:22 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:18:22 symfony [info] {sfPatternRouting} Match route "stop" (/stop) for /stop with parameters array (  'module' => 'trip',  'action' => 'stop',)
+Aug 28 20:18:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:18:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:18:22 symfony [info] {tripActions} Call "tripActions->executeStop()"
+Aug 28 20:18:22 symfony [err] {sfRenderException} The template "stopSuccess.php" does not exist or is unreadable in "".
+Aug 28 20:18:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 28 20:18:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 20:18:22 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (9)
+Aug 28 20:18:22 symfony [info] {sfWebDebugLogger} Factories 8.30 ms (1)
+Aug 28 20:18:22 symfony [info] {sfWebDebugLogger} Action "trip/stop" 0.16 ms (1)
+Aug 28 20:18:22 symfony [info] {sfWebDebugLogger} View "Success" for "trip/stop" 24.17 ms (1)
+Aug 28 20:18:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:18:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:18:53 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Aug 28 20:18:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:18:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:18:53 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Aug 28 20:18:53 symfony [err] {sfRenderException} The template "completeSuccess.php" does not exist or is unreadable in "".
+Aug 28 20:18:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Aug 28 20:18:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 20:18:53 symfony [info] {sfWebDebugLogger} Configuration 1.29 ms (9)
+Aug 28 20:18:53 symfony [info] {sfWebDebugLogger} Factories 6.52 ms (1)
+Aug 28 20:18:53 symfony [info] {sfWebDebugLogger} Action "trip/complete" 0.16 ms (1)
+Aug 28 20:18:53 symfony [info] {sfWebDebugLogger} View "Success" for "trip/complete" 20.73 ms (1)
+Aug 28 20:19:26 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Aug 28 20:19:26 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Aug 28 20:19:26 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Aug 28 20:19:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Aug 28 20:19:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Aug 28 20:19:26 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Aug 28 20:19:26 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/trip/templates/completeSuccess.php"
+Aug 28 20:19:26 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Aug 28 20:19:26 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Aug 28 20:19:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Aug 28 20:19:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Aug 28 20:19:26 symfony [info] {sfWebDebugLogger} Configuration 1.18 ms (9)
+Aug 28 20:19:26 symfony [info] {sfWebDebugLogger} Factories 8.37 ms (1)
+Aug 28 20:19:26 symfony [info] {sfWebDebugLogger} Action "trip/complete" 0.21 ms (1)
+Aug 28 20:19:26 symfony [info] {sfWebDebugLogger} View "Success" for "trip/complete" 7.03 ms (1)
+Aug 28 20:19:26 symfony [info] {sfWebResponse} Send content (30400 o)
+Sep 06 22:17:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 06 22:17:13 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 06 22:17:13 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Sep 06 22:17:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 06 22:17:13 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 06 22:17:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 06 22:17:13 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Sep 06 22:17:13 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 06 22:17:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.id = ?) LIMIT 1 - (4)
+Sep 06 22:17:13 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/trip/templates/completeSuccess.php"
+Sep 06 22:17:13 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Sep 06 22:17:13 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Sep 06 22:17:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 06 22:17:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 06 22:17:13 symfony [info] {sfWebDebugLogger} Configuration 130.30 ms (9)
+Sep 06 22:17:13 symfony [info] {sfWebDebugLogger} Factories 288.02 ms (1)
+Sep 06 22:17:13 symfony [info] {sfWebDebugLogger} Action "trip/complete" 12.24 ms (1)
+Sep 06 22:17:13 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Sep 06 22:17:13 symfony [info] {sfWebDebugLogger} View "Success" for "trip/complete" 26.97 ms (1)
+Sep 06 22:17:13 symfony [info] {sfWebResponse} Send content (37195 o)
+Sep 06 22:17:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 06 22:17:27 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 06 22:17:27 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Sep 06 22:17:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 06 22:17:27 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 06 22:17:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 06 22:17:27 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Sep 06 22:17:27 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 06 22:17:27 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.id = ?) LIMIT 1 - (4)
+Sep 06 22:17:27 symfony [err] {sfException} Call to undefined method sfWebRequest::getParamaterHolder.
+Sep 06 22:17:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Sep 06 22:17:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 06 22:17:27 symfony [info] {sfWebDebugLogger} Configuration 1.11 ms (8)
+Sep 06 22:17:27 symfony [info] {sfWebDebugLogger} Factories 12.56 ms (1)
+Sep 06 22:17:27 symfony [info] {sfWebDebugLogger} Action "trip/complete" 61.53 ms (1)
+Sep 06 22:17:27 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Sep 06 22:17:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 06 22:17:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 06 22:17:41 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Sep 06 22:17:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 06 22:17:41 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 06 22:17:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 06 22:17:41 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Sep 06 22:17:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 06 22:17:41 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.id = ?) LIMIT 1 - (4)
+Sep 06 22:17:41 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE outing SET end_time = ?, end_miles = ?, fuel_cost = ?, fuel_paid_for = ?, journey_count = ?, comments = ?, is_complete = ?, updated_at = ? WHERE id = ? - (22:17, 150, 100, 100, 100, None, 1, 2011-09-06 22:17:41, 4)
+Sep 06 22:17:41 symfony [info] {sfFrontWebController} Redirect to "/"
+Sep 06 22:17:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 06 22:17:41 symfony [info] {sfWebResponse} Send header "Location: /"
+Sep 06 22:17:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 06 22:17:41 symfony [info] {sfWebDebugLogger} Configuration 0.95 ms (8)
+Sep 06 22:17:41 symfony [info] {sfWebDebugLogger} Factories 6.63 ms (1)
+Sep 06 22:17:41 symfony [info] {sfWebDebugLogger} Action "trip/complete" 48.30 ms (1)
+Sep 06 22:17:41 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 06 22:17:41 symfony [info] {sfWebResponse} Send content (72 o)
+Sep 06 22:20:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 06 22:20:51 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 06 22:20:51 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Sep 06 22:20:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 06 22:20:51 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 06 22:20:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 06 22:20:51 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Sep 06 22:20:51 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 06 22:20:51 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.id = ?) LIMIT 1 - (4)
+Sep 06 22:20:51 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/trip/templates/completeSuccess.php"
+Sep 06 22:20:51 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Sep 06 22:20:51 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Sep 06 22:20:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 06 22:20:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 06 22:20:51 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (9)
+Sep 06 22:20:51 symfony [info] {sfWebDebugLogger} Factories 9.85 ms (1)
+Sep 06 22:20:51 symfony [info] {sfWebDebugLogger} Action "trip/complete" 23.82 ms (1)
+Sep 06 22:20:51 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.00 ms (2)
+Sep 06 22:20:51 symfony [info] {sfWebDebugLogger} View "Success" for "trip/complete" 7.11 ms (1)
+Sep 06 22:20:51 symfony [info] {sfWebResponse} Send content (37221 o)
+Sep 06 22:20:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 06 22:20:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 06 22:20:59 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Sep 06 22:20:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 06 22:20:59 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 06 22:20:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 06 22:20:59 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Sep 06 22:20:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 06 22:20:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.id = ?) LIMIT 1 - (4)
+Sep 06 22:23:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 06 22:23:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 06 22:23:04 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Sep 06 22:23:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 06 22:23:04 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 06 22:23:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 06 22:23:04 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Sep 06 22:23:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 06 22:23:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.id = ?) LIMIT 1 - (4)
+Sep 06 22:23:04 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE outing SET end_time = ?, end_miles = ?, fuel_cost = ?, fuel_paid_for = ?, updated_at = ? WHERE id = ? - (2011-09-05 22:20, 150, 100, 100, 2011-09-06 22:23:04, 4)
+Sep 06 22:23:04 symfony [info] {sfFrontWebController} Redirect to "/"
+Sep 06 22:23:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 06 22:23:04 symfony [info] {sfWebResponse} Send header "Location: /"
+Sep 06 22:23:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 06 22:23:04 symfony [info] {sfWebDebugLogger} Configuration 0.99 ms (8)
+Sep 06 22:23:04 symfony [info] {sfWebDebugLogger} Factories 6.03 ms (1)
+Sep 06 22:23:04 symfony [info] {sfWebDebugLogger} Action "trip/complete" 19.48 ms (1)
+Sep 06 22:23:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 06 22:23:04 symfony [info] {sfWebResponse} Send content (72 o)
+Sep 06 22:23:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 06 22:23:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 06 22:23:23 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Sep 06 22:23:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 06 22:23:23 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 06 22:23:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 06 22:23:23 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Sep 06 22:23:23 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 06 22:23:23 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.id = ?) LIMIT 1 - (4)
+Sep 06 22:23:23 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/trip/templates/completeSuccess.php"
+Sep 06 22:23:23 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Sep 06 22:23:23 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Sep 06 22:23:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 06 22:23:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 06 22:23:23 symfony [info] {sfWebDebugLogger} Configuration 1.21 ms (9)
+Sep 06 22:23:23 symfony [info] {sfWebDebugLogger} Factories 10.62 ms (1)
+Sep 06 22:23:23 symfony [info] {sfWebDebugLogger} Action "trip/complete" 26.33 ms (1)
+Sep 06 22:23:23 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Sep 06 22:23:23 symfony [info] {sfWebDebugLogger} View "Success" for "trip/complete" 4.13 ms (1)
+Sep 06 22:23:23 symfony [info] {sfWebResponse} Send content (37222 o)
+Sep 06 22:23:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 06 22:23:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 06 22:23:34 symfony [info] {sfPatternRouting} Match route "complete" (/complete) for /complete with parameters array (  'module' => 'trip',  'action' => 'complete',)
+Sep 06 22:23:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 06 22:23:34 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 06 22:23:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 06 22:23:34 symfony [info] {tripActions} Call "tripActions->executeComplete()"
+Sep 06 22:23:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 06 22:23:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.id = ?) LIMIT 1 - (4)
+Sep 06 22:23:34 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE outing SET end_time = ?, end_miles = ?, fuel_cost = ?, fuel_paid_for = ?, updated_at = ? WHERE id = ? - (2011-09-06 22:23, 150, 100, 100, 2011-09-06 22:23:34, 4)
+Sep 06 22:23:34 symfony [info] {sfFrontWebController} Redirect to "/"
+Sep 06 22:23:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 06 22:23:34 symfony [info] {sfWebResponse} Send header "Location: /"
+Sep 06 22:23:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 06 22:23:34 symfony [info] {sfWebDebugLogger} Configuration 0.90 ms (8)
+Sep 06 22:23:34 symfony [info] {sfWebDebugLogger} Factories 5.57 ms (1)
+Sep 06 22:23:34 symfony [info] {sfWebDebugLogger} Action "trip/complete" 19.55 ms (1)
+Sep 06 22:23:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (3)
+Sep 06 22:23:34 symfony [info] {sfWebResponse} Send content (72 o)
+Sep 07 00:05:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 07 00:05:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 07 00:05:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'home',  'action' => 'index',)
+Sep 07 00:05:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 07 00:05:43 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 07 00:05:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 07 00:05:43 symfony [info] {homeActions} Call "homeActions->executeIndex()"
+Sep 07 00:05:43 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 07 00:05:43 symfony [info] {Doctrine_Connection_Statement} execute : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.earnings AS o__earnings, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o WHERE (o.is_complete = ?) ORDER BY o.id DESC LIMIT 1 - (0)
+Sep 07 00:05:43 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/home/templates/indexSuccess.php"
+Sep 07 00:05:43 symfony [notice] {sfWebDebugLogger}  Notice at /Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/modules/home/templates/indexSuccess.php on line 2 (Undefined variable: running)
+Sep 07 00:05:43 symfony [info] {sfPHPView} Decorate content with "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Sep 07 00:05:43 symfony [info] {sfPHPView} Render "/Applications/MAMP/htdocs/TaxiTrackPro/apps/mobile/templates/layout.php"
+Sep 07 00:05:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 07 00:05:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 07 00:05:43 symfony [info] {sfWebDebugLogger} Configuration 161.96 ms (9)
+Sep 07 00:05:43 symfony [info] {sfWebDebugLogger} Factories 58.71 ms (1)
+Sep 07 00:05:43 symfony [info] {sfWebDebugLogger} Action "home/index" 50.95 ms (1)
+Sep 07 00:05:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (2)
+Sep 07 00:05:43 symfony [info] {sfWebDebugLogger} View "Success" for "home/index" 8.01 ms (1)
+Sep 07 00:05:43 symfony [info] {sfWebResponse} Send content (35805 o)
+Sep 07 00:05:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 07 00:05:53 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 07 00:05:53 symfony [info] {sfPatternRouting} Match route "start" (/start) for /start with parameters array (  'module' => 'trip',  'action' => 'start',)
+Sep 07 00:05:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 07 00:05:53 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 07 00:05:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 07 00:05:53 symfony [info] {tripActions} Call "tripActions->executeStart()"
+Sep 07 00:05:53 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 07 00:05:53 symfony [info] {Doctrine_Connection_Mysql} query : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.earnings AS o__earnings, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o ORDER BY o.id DESC LIMIT 1 - ()
+Sep 07 00:06:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 07 00:06:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 07 00:06:06 symfony [info] {sfPatternRouting} Match route "start" (/start) for /start with parameters array (  'module' => 'trip',  'action' => 'start',)
+Sep 07 00:06:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 07 00:06:06 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 07 00:06:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 07 00:06:06 symfony [info] {tripActions} Call "tripActions->executeStart()"
+Sep 07 00:06:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 07 00:06:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT o.id AS o__id, o.start_time AS o__start_time, o.end_time AS o__end_time, o.start_miles AS o__start_miles, o.end_miles AS o__end_miles, o.fuel_cost AS o__fuel_cost, o.fuel_paid_for AS o__fuel_paid_for, o.journey_count AS o__journey_count, o.earnings AS o__earnings, o.comments AS o__comments, o.user_id AS o__user_id, o.is_complete AS o__is_complete, o.created_at AS o__created_at, o.updated_at AS o__updated_at FROM outing o ORDER BY o.id DESC LIMIT 1 - ()
+Sep 07 00:06:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s WHERE (s.id = ?) LIMIT 1 - (1)
+Sep 07 00:06:06 symfony [info] {Doctrine_Connection_Statement} execute : INSERT INTO outing (is_complete, start_time, start_miles, user_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?) - (0, 1315346766, 150.00, 1, 2011-09-07 00:06:06, 2011-09-07 00:06:06)
+Sep 07 00:06:06 symfony [info] {sfFrontWebController} Redirect to "/"
+Sep 07 00:06:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 07 00:06:06 symfony [info] {sfWebResponse} Send header "Location: /"
+Sep 07 00:06:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 07 00:06:06 symfony [info] {sfWebDebugLogger} Configuration 1.17 ms (8)
+Sep 07 00:06:06 symfony [info] {sfWebDebugLogger} Factories 8.72 ms (1)
+Sep 07 00:06:06 symfony [info] {sfWebDebugLogger} Action "trip/start" 18.23 ms (1)
+Sep 07 00:06:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.01 ms (4)
+Sep 07 00:06:06 symfony [info] {sfWebResponse} Send content (72 o)

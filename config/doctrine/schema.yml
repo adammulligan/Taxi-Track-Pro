@@ -1,0 +1,20 @@
+Outing:
+  actAs: { Timestampable: ~ }
+  columns:
+    start_time: datetime
+    end_time: datetime
+    start_miles: double
+    end_miles: double
+    fuel_cost: double
+    fuel_paid_for: double
+    fuel_litres: double
+    journey_count: integer
+    earnings: double
+    comments: string
+    user_id: integer
+    is_complete: { type: boolean, default: false }
+  relations:
+    sfGuardUser:
+      local: user_id
+      foreignAlias: User
+      onDelete: CASCADE
