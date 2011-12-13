@@ -14,12 +14,21 @@
 <form method="post">
   <input type="hidden" name="trip_id" id="trip_id" value="<?php echo $trip->getId(); ?>" />
   <div data-role="fieldcontain">
+    <label for="date">Start Date:</label>
+    <input type="text" name="start_date" id="start_date" value="<?php echo date("Y-m-d",strtotime($trip->getStartTime())); ?>" />
+  </div>
+  <div data-role="fieldcontain">
+    <label for="name">Start Time:</label>
+    <input type="text" name="start_time" id="start_time" value="<?php echo date("G:i",strtotime($trip->getStartTime())); ?>"  />
+  </div>
+
+  <div data-role="fieldcontain">
     <label for="date">End Date:</label>
-    <input type="text" name="end_date" id="end_date" value="<?php echo date("Y-m-d"); ?>" />
+    <input type="text" name="end_date" id="end_date" value="<?php if ($trip->getEndTime()!=null) { echo date("Y-m-d",strtotime($trip->getEndTime())); } else { echo date("Y-m-d"); } ?>" />
   </div>
   <div data-role="fieldcontain">
     <label for="name">End Time:</label>
-    <input type="text" name="end_time" id="end_time" value="<?php echo date("G:i"); ?>"  />
+    <input type="text" name="end_time" id="end_time" value="<?php if ($trip->getEndTime()!=null) { echo date("G:i",strtotime($trip->getEndTime())); } else { echo date("G:i"); } ?>"  />
   </div>
   <div data-role="fieldcontain">
     <label for="name">Start Mileage:</label>
@@ -49,9 +58,11 @@
     <label for="name">Comments:</label>
     <textarea name="comments" id="comments"></textarea>
   </div>
-  <div data-role="fieldcontain">
-    <button type="reset" onClick="javascrip:window.location='/';">Cancel</button>
-    <button type="submit">Submit</button>
-  </div>
+  <div class="ui-body ui-body-b">
+		<fieldset class="ui-grid-a">
+        <div class="ui-block-a"><button type="reset"  onClick="javascrip:window.location='/';" data-theme="d">Cancel</button></div>
+				<div class="ui-block-b"><button type="submit" data-theme="a">Submit</button></div>
+	    </fieldset>
+		</div>
 </form>
 </div>

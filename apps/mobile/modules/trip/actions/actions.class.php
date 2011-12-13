@@ -67,9 +67,10 @@ class tripActions extends sfActions
 
         $params = $request->getParameterHolder()->getAll();
 
-        $params['start_time'] = $trip->getStartTime();
+        $params['start_time'] = $params['start_date']." ".$params['start_time'];
         $params['end_time'] = $params['end_date']." ".$params['end_time'];
         unset($params['end_date']);
+        unset($params['start_date']);
 
         $trip->fromArray($params);
         $trip->setIsComplete(true);

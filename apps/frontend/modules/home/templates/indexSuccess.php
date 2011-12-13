@@ -17,6 +17,21 @@
 				alert(event.title + ' was moved ' + delta + ' days\n' +
 					'(should probably update your database)');
 			},
+      dayClick: function(date, allDay, jsEvent, view) {
+        var start = new Date(date);
+
+        var full_start = (start.getMonth()+1)+"/"+start.getDate()+"/"+start.getFullYear();
+        $.ajax({
+          url:'/trip/addByAjax',
+          data: {
+            date: full_start
+          },
+          success: function(m) {
+            // I hate hard coding things :(
+            window.location="http://mob.taxi.cyanoryx.com/complete?id="+m.id;
+          }
+        });
+      },
       viewDisplay: function(view) {
         var start = new Date(view.start);
         var end   = new Date(view.end);

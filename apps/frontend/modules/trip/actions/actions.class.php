@@ -45,17 +45,17 @@ class tripActions extends sfActions
   public function executeAddByAjax(sfWebRequest $request) {
     $this->getResponse()->setContentType('application/json');
 
-    if ($request->isMethod('post') && $request->hasParameter('start') && $request->hasParameter('end')) {
+    if ($request->hasParameter('date')) {
       $outing = new Outing();
-      $outing->setStartTime($request->getParameter('start'));
-      $outing->setEndTime($request->getParameter('end'));
+      $outing->setStartTime(date("Y-m-d",strtotime($request->getParameter('date'))));
+      $outing->setEndTime(date("Y-m-d",strtotime($request->getParameter('date'))));
       $outing->setUserId($this->getUser()->getGuardUser()->getId());
       $outing->save();
 
-      return $this->renderText(json_encode(array('success')));
+      return $this->renderText(json_encode(array("id"=>$outing->getId(),"date"=>$outing->getStartTime())));
     }
 
-    return $this->renderText(json_encode(array('failed')));
+    return $this->renderText(json_encode(array()));
   }
 
   public function executeDelete(sfWebRequest $request) {
